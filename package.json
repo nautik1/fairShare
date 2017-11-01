@@ -9,6 +9,7 @@
   "author": "Nicolas P",
   "license": "ISC",
   "dependencies": {
+    "moment": "^2.19.1",
     "node-caldav-mod": "^1.0.3"
   }
 }
