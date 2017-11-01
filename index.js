@@ -1,5 +1,16 @@
 var Scrapegoat = require("scrapegoat");
 var moment = require("moment");
+
+/** params file format:
+* {
+*   "auth": {
+*     "user": "xxx",
+*     "pass": "xxx"
+*   },
+*   "uri": "xxx",
+*   "timeout": 20000
+* }
+*/
 var params = require("./params.json");
 
 const scrapegoat = new Scrapegoat(params);
